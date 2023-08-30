@@ -38,7 +38,7 @@ $_SESSION['estado'] ="Unavailable";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Room's list - Valdocco Resorts</title>
-    <link rel="shortcut icon" href="./assets/VRpequeño.png">
+    <link rel="shortcut icon" href="./img/wayb.jpg">
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="./css/all.css">
@@ -78,15 +78,14 @@ $_SESSION['estado'] ="Unavailable";
     <!-- ----------------------------  Navigation ---------------------------------------------- -->
 
     <!----------------------------- Main Site Section ------------------------------>
-
-   <nav>  
+    <nav>  
         <div class="navbar  bg-white-500 md:bg-withe-500 lg:bg-white-500">
             <div class="flex-1">
               <a href="./home1.php" class="btn btn-ghost normal-case text-xl text-[#3f4954] sm:text-2xl   m ">Valdocco Resorts</a>
             </div>
             <div class="flex-none">
               <ul class="menu menu-horizontal px-1">
-                <li><a href="./Nueva pagina de comodidades.html">Comodidades</a></li>
+                <li><a href="./Nueva pagina de comodidades.php">Comodidades</a></li>
              
                         
 
@@ -127,10 +126,10 @@ $_SESSION['estado'] ="Unavailable";
              
              
              
-                <li><a href="./rooms.html">Habitaciones</a></li>
-                <li><a href="./Gatrooo.html">Gastronomia</a></li>
-                <li><a href="./EventESPP.html">Eventos Especiales</a></li>
-                <li><a href="./abouut.html">Sobre nosotros</a></li>
+                <li><a href="./rooms.php">Habitaciones</a></li>
+                <li><a href="./Gatrooo.php">Gastronomia</a></li>
+                <li><a href="./EventESPP.php">Eventos Especiales</a></li>
+                <li><a href="./abouut.php">Sobre nosotros</a></li>
                 <li>
                     <details>
                       <summary>
@@ -138,7 +137,7 @@ $_SESSION['estado'] ="Unavailable";
                       </summary>
                       <ul class="p-2 bg-base-100">
                         <li><a href="#">Español (ES)</a></li>
-                        <li><a href="./Index - EN.html">Ingles (EN)</a></li>
+                        <li><a href="./home1 - EN.php">Ingles (EN)</a></li>
                       </ul>
                     </details>
                   </li>
@@ -253,7 +252,7 @@ h3{
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s" data-aos="fade-in" data-aos-delay="200">
                     <h6 class="section-title text-center text-primary text-uppercase">Valdocco Resorts</h6>
-                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Rooms</span></h1>
+                    <h1 class="mb-5">Habitaciones <span class="text-primary text-uppercase">Valdocco</span></h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" data-aos="fade-left" data-aos-delay="200">
@@ -263,7 +262,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$60</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -273,12 +272,12 @@ h3{
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>2 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Welcome to our spacious 20x20 hotel room. Choose from one or two beds, and enjoy free WiFi and room service for a comfortable and convenient stay.</p>
                                 <div class="d-flex justify-content-between">
                                     <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage Bishop -1.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
@@ -293,7 +292,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$55</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -303,14 +302,14 @@ h3{
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                     <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Welcome to our spacious 20x20 hotel room. Choose from one or two beds, and enjoy free WiFi and room service for a comfortable and convenient stay.</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage - 1.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
                                 </div>
                             </div>
@@ -323,7 +322,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$45</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -333,20 +332,25 @@ h3{
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>2 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Welcome to our spacious 20x20 hotel room. Choose from one or two beds, and enjoy free WiFi and room service for a comfortable and convenient stay.</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage Bishop -2.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    </div>
+
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s" data-aos="fade-in" data-aos-delay="200">
+                    <h6 class="section-title text-center text-primary text-uppercase">Valdocco Resorts</h6>
+                    <h1 class="mb-5">Exclusive <span class="text-primary text-uppercase">Suits</span></h1>
                     </div>
 
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" data-aos="fade-left" data-aos-delay="200">
@@ -356,7 +360,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$55</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -366,14 +370,14 @@ h3{
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
+                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>2 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Welcome to our spacious 20x20 hotel room. Choose from one or two beds, and enjoy free WiFi and room service for a comfortable and convenient stay.</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage Bishop -3.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
                                 </div>
                             </div>
@@ -386,7 +390,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h5 class="mb-0">Exclusive Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$65</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -396,19 +400,20 @@ h3{
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
+                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>4 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">We welcome you to our spacious hotel rooms, with a generous 40x40 space. Choose from one, two or three beds for your comfort. Plus, enjoy free WiFi and the convenience of room service during your stay.</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage Bishop -4.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" data-aos="fade-right" data-aos-delay="200">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
@@ -416,7 +421,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h5 class="mb-0">Exclusive Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$70</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -426,19 +431,25 @@ h3{
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>4 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">We welcome you to our spacious hotel rooms, with a generous 40x40 space. Choose from one, two or three beds for your comfort. Plus, enjoy free WiFi and the convenience of room service during your stay.</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage Bishop -5.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s" data-aos="fade-in" data-aos-delay="200">
+                    <h6 class="section-title text-center text-primary text-uppercase">Valdocco Resorts</h6>
+                    <h1 class="mb-5">Presidential <span class="text-primary text-uppercase">Suits</span></h1>
+                    </div>
+
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" data-aos="fade-left" data-aos-delay="200">
                         <div class="room-item shadow rounded overflow-hidden">
                             <div class="position-relative">
@@ -446,7 +457,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h5 class="mb-0">dddExclusive Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$85</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -458,12 +469,12 @@ h3{
                                 <div class="d-flex mb-3">
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
+                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>6 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">We welcome you to our spacious hotel rooms, with a generous 40x40 space. Choose from one, two or three beds for your comfort. Plus, enjoy free WiFi and the convenience of room service during your stay.</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage Bishop - 6.php" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
                                 </div>
                             </div>
@@ -476,7 +487,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h5 class="mb-0">"Reina Isabel"</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$150</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -486,14 +497,14 @@ h3{
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i> 1 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>3 Bath</small>
                                     <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Step into the supreme luxury of our Exclusive Presidential Suite. This extraordinary space offers you an elegant and refined ambiance, designed to satisfy the most discerning tastes. With a spaciousness that spans 40x40, this suite is an oasis of privacy and comfort.</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage Bishop - 7.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
                                 </div>
                             </div>
@@ -506,7 +517,7 @@ h3{
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Junior Suite</h5><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$50</h5>
+                                    <h6 class="mb-0">"Luis XV"</h6><h5 class="mb-0" style="color: #ffffff;">------------</h5><h5 class="mb-0"><i class="far fa-money-bill-alt text-primary me-2"></i>$220</h5>
                                     <div class="ps-2">
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
@@ -516,14 +527,14 @@ h3{
                                     </div>
                                 </div>
                                 <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>3 Bed</small>
+                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>2 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>3 max.</small>
+                                    <small class="border-end me-3 pe-3"><i class="fas fa-user text-primary me-2"></i>2 max.</small>
                                     <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                 </div>
-                                <p class="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                                <p class="text-body mb-3">Welcome to the pinnacle of luxury: our Ultra Exclusive Suite. With a 40x40 space, it redefines elegance with meticulously designed details. Choose from one, two or three beds, all with premium bedding. High-speed WiFi and room service complete this unparalleled experience.</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="./roomssubpage Bishop - 8.html" style="background-color: #F0B439; border-color: #F0B439;">Ver Detalles</a>
                                     <a class="btn btn-sm btn-dark rounded py-2 px-4" href="./revisa_room_disponible.php" style="background-color: #161414; border-color: #161414; color: #ffffff;">Reservar Ahora</a>
                                 </div>
                             </div>
@@ -536,26 +547,28 @@ h3{
         <!-- Room End -->
 
         <section class="container">
-            <div class="site-content">
-            <div class="posts">
-            <div class="pagination flex-row">
-                <a href="./Gatrooo - EN.html.html"><i class="fas fa-chevron-left"></i></a>
-                <a href="./Index - EN.html.html" class="pages">1</a>
-                <a href="./Nueva pagina de comodidades - EN.html.html" class="pages">2</a>
-                <a href="./Gatrooo - EN.html.html" class="pages">3</a>
-                <a href=".#" class="pagina">4</a>
-                <a href="./abouut - EN.html.html" class="pages">5</a>
-                <a href="./abouut - EN.html.html"><i class="fas fa-chevron-right"></i></a>
-            </div>
-            </div>
-            </div>
-        </section>
+        <div class="site-content">
+        <div class="posts">
+        <div class="pagination flex-row">
+            <a href="./EventESPP.php"><i class="fas fa-chevron-left"></i></a>
+            <a href="./home1.php" class="pages">1</a>
+            <a href="./Nueva pagina de comodidades.php" class="pages">2</a>
+            <a href="./Gatrooo.php" class="pages">3</a>
+            <a href="./EventESPP.php" class="pages">4</a>
+            <a href="#" class="pagina">5</a>
+            <a href="./abouut - copia.php" class="pages">6</a>
+            <a href="./abouut - copia.php"><i class="fas fa-chevron-right"></i></a>
+        </div>
+        </div>
+        </div>
+    </section>
+
 
     <!-- --------------------------- Footer ---------------------------------------- -->
 
     <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
         <div class="instagram">
-            <img src="./assets/VRpequeño.png" height="100px" width="100px">
+        <img src="./img/wayb.jpg" height="100px" width="100px">
         </div>
         <div class="grid grid-flow-col gap-4">
           <a href="abouut - EN.html" class="link link-hover">About us</a> 

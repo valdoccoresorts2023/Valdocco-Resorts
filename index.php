@@ -29,6 +29,7 @@ body {
 }
 .login {
    width: 300px;
+   height:200px
    background-color:#F7D358;
    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
    margin: 100px auto;
@@ -114,10 +115,27 @@ document.onkeydown = function(e) {
        </span>
 <label for="password"><i class="fas fa-lock"></i></label>
        <span class="nav-text">
-            <input type="password" name="password" placeholder="Password" id="password" size="10" minlength="6" required>
+            <input type="password" name="password" placeholder="Password" id="password" size="10" minlength="4" required>
        </span>
 <input type="submit" value="Login" onkeypress="return event.keyCode!=13">
 </form>
+            
+<div align=center>
+        	<i class="fas fa-user"></i><a href="creanuevo.php" data-tooltip-center="Nuevo Usuario" placeholder='Crear nuevo Usuario para sistema de Reservas'><h7> Nuevo Usuario</h7></a>
+            <p>
+			
+			</div>
+            </p><small><small>
+			<div align='center'>
+			Para reservas en linea debe tener un Usuario.
+			</small></small>
             </div>
-  </body>
+			</div>
+
+</div>
+         
+
+  
+  
+</body>
 </html>

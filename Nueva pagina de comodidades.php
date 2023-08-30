@@ -51,7 +51,7 @@ $_SESSION['estado'] ="Unavailable";
     <link rel="stylesheet" href="./css/Stylee.css">
 
     <link rel="stylesheet" href="../website design/css/style.css">
-    <link rel="shortcut icon" href="./assets/VRpequeño.png">
+    <link rel="shortcut icon" href="./img/wayb.jpg">
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -70,14 +70,14 @@ $_SESSION['estado'] ="Unavailable";
 
 </head>
 <body>
-    <nav>  
+<nav>  
         <div class="navbar  bg-white-500 md:bg-withe-500 lg:bg-white-500">
             <div class="flex-1">
               <a href="./home1.php" class="btn btn-ghost normal-case text-xl text-[#3f4954] sm:text-2xl   m ">Valdocco Resorts</a>
             </div>
             <div class="flex-none">
               <ul class="menu menu-horizontal px-1">
-                <li><a href="./Nueva pagina de comodidades.html">Comodidades</a></li>
+                <li><a href="./Nueva pagina de comodidades.php">Comodidades</a></li>
              
                         
 
@@ -118,10 +118,10 @@ $_SESSION['estado'] ="Unavailable";
              
              
              
-                <li><a href="./rooms.html">Habitaciones</a></li>
-                <li><a href="./Gatrooo - EN.php">Gastronomia</a></li>
+                <li><a href="./rooms.php">Habitaciones</a></li>
+                <li><a href="./Gatrooo.php">Gastronomia</a></li>
                 <li><a href="./EventESPP.php">Eventos Especiales</a></li>
-                <li><a href="./abouut.html">Sobre nosotros</a></li>
+                <li><a href="./abouut.php">Sobre nosotros</a></li>
                 <li>
                     <details>
                       <summary>
@@ -129,7 +129,7 @@ $_SESSION['estado'] ="Unavailable";
                       </summary>
                       <ul class="p-2 bg-base-100">
                         <li><a href="#">Español (ES)</a></li>
-                        <li><a href="./Index - EN.html">Ingles (EN)</a></li>
+                        <li><a href="./home1 - EN.php">Ingles (EN)</a></li>
                       </ul>
                     </details>
                   </li>
@@ -137,8 +137,7 @@ $_SESSION['estado'] ="Unavailable";
               </ul>
             </div>
           </div>
-    </nav> 
-
+    </nav>  
 
 <style>
 :root{
@@ -930,13 +929,14 @@ if ($tiu==10)
         <div class="site-content">
         <div class="posts">
         <div class="pagination flex-row">
-            <a href="./Index.html"><i class="fas fa-chevron-left"></i></a>
-            <a href="./Index.html" class="pages">1</a>
+            <a href="./home1.php"><i class="fas fa-chevron-left"></i></a>
+            <a href="./home1.php" class="pages">1</a>
             <a href="#" class="pagina">2</a>
-            <a href="./Gatrooo.html" class="pages">3</a>
-            <a href="./rooms.html" class="pages">4</a>
-            <a href="./abouut.html" class="pages">5</a>
-            <a href="./Gatrooo.html"><i class="fas fa-chevron-right"></i></a>
+            <a href="./Gatrooo.php" class="pages">3</a>
+            <a href="./EventESPP.php" class="pages">4</a>
+            <a href="./room.php" class="pages">5</a>
+            <a href="./abouut - copia.php" class="pages">6</a>
+            <a href="./Gatrooo.php"><i class="fas fa-chevron-right"></i></a>
         </div>
         </div>
         </div>
@@ -976,16 +976,16 @@ if ($tiu==10)
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../www/css/aaa/lib/wow/wow.min.js"></script>
-    <script src="../www/css/aaa/lib/easing/easing.min.js"></script>
-    <script src="../www/css/aaa/lib/waypoints/waypoints.min.js"></script>
-    <script src="../www/css/aaa/lib/counterup/counterup.min.js"></script>
-    <script src="../www/css/aaa/lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="../www/css/aaa/lib/tempusdominus/js/moment.min.js"></script>
-    <script src="../www/css/aaa/lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="../www/css/aaa/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script src=".js/wow.min.js"></script>
+    <script src=".js/easing.min.js"></script>
+    <script src=".js/waypoints.min.js"></script>
+    <script src=".js/counterup.min.js"></script>
+    <script src=".js/owl.carousel.min.js"></script>
+    <script src=".js/moment.min.js"></script>
+    <script src=".js/moment-timezone.min.js"></script>
+    <script src=".js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="../www/css/aaa/js/main.js"></script>
+    <script src=".js/maain.js"></script>
 </body>
 </html>

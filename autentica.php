@@ -7,7 +7,7 @@ session_start();
 
 date_default_timezone_set('America/El_Salvador');
 
-$inicio     = 6;  # si pongo a las 6 pueden entrar a partir de las 7.01 ya que es mayor 7 que 6 
+$inicio     = 1;  # si pongo a las 6 pueden entrar a partir de las 7.01 ya que es mayor 7 que 6 
 $fin        = 23; # Hasta las 23 horas de la tarde.(11 de la noche)
 $user       = 10; # usuario que si pueden pasar a cualquier hora
 $HoraActual = intval(date("H"));// Hora actual del Pais de residencia.
@@ -25,7 +25,7 @@ if ( !isset($_POST['username'], $_POST['password']) )
     
 // Prepare our SQL, preparing the SQL statement will prevent SQL injection.
             
-if ($stmt = $conn->prepare('SELECT codgestor,password,tipouser,fifo,encargado FROM usuarios WHERE email = ?')) 
+if ($stmt = $conn->prepare('SELECT password,tipouser,fifo,encargado,id FROM usuarios WHERE email = ?')) 
    {    // Bind parameters (s = string, i = int, b = blob, etc), in our case the username is a string so we use "s"
     	$stmt->bind_param('s', $_POST['username']);
    	    $stmt->execute();
@@ -35,7 +35,7 @@ if ($stmt = $conn->prepare('SELECT codgestor,password,tipouser,fifo,encargado FR
             
 if ($stmt->num_rows > 0) 
 {
-	$stmt->bind_result($codgestor, $password, $tipouser,$fifo,$encargado);
+ 	$stmt->bind_result($password, $tipouser,$fifo,$encargado,$id);
 	$stmt->fetch();
    // Account exists, now we verify the password.
    if (trim($_POST['password']) === trim($password)) 
@@ -44,22 +44,22 @@ if ($stmt->num_rows > 0)
             		//session_regenerate_id();
             		$_SESSION['loggedin']       = TRUE;
             		$_SESSION['name']           = $_POST['username'];
-            		$_SESSION['id']             = $codgestor;
             		$_SESSION['tipou']          = $tipouser;
             		$_SESSION['fifo']           = $fifo;
-					$_SESSION['user1']          = $encargado;
-   
+					   $_SESSION['user1']          = $encargado;
+					   $_SESSION['id']             = $id;
                                     
                     // LOS  OTROS
                     if ($tipouser==$user) 
-                       {header('Location:index.html');} 
+                       {include("home1.php");} 
                        //include 'home.php';
         
                     else 
  
                        {
-                          if ($HoraActual > $inicio && $HoraActual < $fin) 
-                             {header('Location:index.html');} 
+                          //if ($HoraActual > $inicio && $HoraActual < $fin) 
+                          if (1==1) 
+                             {include("home1.php");} 
                              //include 'home.php';
                           else 
                             {
@@ -69,7 +69,7 @@ if ($stmt->num_rows > 0)
                                    window.alert("Horario de Acceso: 7:00 AM hasta 7:00 PM");
                             </script>
                             <?php
-                            include 'index.html';
+                            include("index.php");
                             }
                        }
 

@@ -1,3 +1,35 @@
+<?php
+session_start();
+$navigator_user_agent = (isset($_SERVER['HTTP_USER_AGENT'])) ? strtolower($_SERVER['HTTP_USER_AGENT']):'';
+
+include("conecta.php");
+
+$empresa         = "Gran Hotel Valdocco";
+$usuario         = $_POST['usuario'];
+$clave           = $_POST['clave']; 
+$idreserva       = $_SESSION['id'];
+$tiu             = $_SESSION['tipou']; 
+$total           = 0;
+
+// 17/02/2022
+$fifo               = $_SESSION['fifo'];
+$nombre             = $_SESSION['user1'];
+$id                 = $_SESSION['id'];
+$_SESSION['estado'] ="Unavailable";
+
+//echo 'Tipo de Usuario es:'.$tiu,$fifo,$idreserva;
+
+	date_default_timezone_set('America/El_Salvador');
+	$hoy        = date("Y-m-d");
+
+    // si esta 30 minutos inactivo se sale de la session.... se bajo el valor para control de usuarios conectados 
+    header('Content-Type: text/html; charset=ISO-8859-1');
+    // visita real
+    date_default_timezone_set('America/El_Salvador');
+    $hoy         = date("Y-m-d H:i:s");
+    $localIP     = $_SERVER['REMOTE_ADDR'];
+    ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,6 +67,7 @@
 
     <!-- Custom Style   -->
     <link rel="stylesheet" href="./css/Style.css">
+    <link rel="shortcut icon" href="./img/wayb.jpg">
 
  
 
@@ -44,35 +77,74 @@
 </head>
 
 <body>
-    <div class="container-xxl bg-white p-0">
-        <nav>  
-            <div class="navbar  bg-white-500 md:bg-withe-500 lg:bg-white-500">
-                <div class="flex-1">
-                  <a href="./Index - EN.html" class="btn btn-ghost normal-case text-xl text-[#3f4954] sm:text-2xl   m ">Valdocco Resorts</a>
-                </div>
-                <div class="flex-none">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a href="./Nueva pagina de comodidades.html">Comodidades</a></li>
-                    <li><a href="./reserva_nueva.php"><i class="fa fa-calendar-alt fa-2x" style="color: rgb(214, 213, 213);"></i>Haz una Reserva</a></li>
-                    <li><a href="./rooms.html">Habitaciones</a></li>
-                    <li><a href="./Gatrooo.html">Gastronomia</a></li>
-                    <li><a href="./EventESPP.html">Eventos Especiales</a></li>
-                    <li><a href="./abouut.html">Sobre nosotros</a></li>
-                    <li>
-                        <details>
-                          <summary>
-                            Lenguaje</i>
-                          </summary>
-                          <ul class="p-2 bg-base-100">
-                            <li><a href="#">Español (ES)</a></li>
-                            <li><a href="./Index - EN.html">Ingles (EN)</a></li>
-                          </ul>
-                        </details>
-                      </li>
-                  </ul>
-                </div>
-              </div>
-        </nav> 
+<nav>  
+        <div class="navbar  bg-white-500 md:bg-withe-500 lg:bg-white-500">
+            <div class="flex-1">
+              <a href="./home1.php" class="btn btn-ghost normal-case text-xl text-[#3f4954] sm:text-2xl   m ">Valdocco Resorts</a>
+            </div>
+            <div class="flex-none">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="./Nueva pagina de comodidades.php">Comodidades</a></li>
+             
+                        
+
+        <?php
+        if ($fifo=='' OR $tiu==10)
+           { echo '
+            <li><a href="./reserva_nueva.php"><i class="fa fa-calendar-alt fa-2x" style="color: rgb(214, 213, 213);"></i>Nueva Reserva</a></li>
+          ';}
+ 
+        if ($fifo=="S")
+           {
+           # Mostrar mensaje QUE YA TIENE 1 RESERVA DEBE LLAMAR AL HOTEL
+           ?>
+           <script type="text/javascript">
+           window.alert("YA TIENE UNA RESERVA EN PROCESO *  Favor llamar al 715-699-0793 al Dpto de Reservas.");
+           </script>
+          <?php 
+          }
+       ?>
+       
+        <li><a href="./crud_pdte.php"  title="Habitaciones Libres" onkeypress="return event.keyCode != 13"><i class="fa fa-calendar-check-o" style="color: rgb(214, 213, 213);"></i>Disponibles</a></li>
+
+        <?php
+        if ($tiu==10)
+           { echo '
+           <li><a href="./crud_reserva.php"  title="Habitaciones Reservadas" onkeypress="return event.keyCode != 13"><span class="glyphicon glyphicon-search"></span>Reservados</a></li>
+		   <li><a href="./crud_cancela.php"  title="Cancela Habitacion Ocupada" onkeypress="return event.keyCode != 13"><span class="glyphicon glyphicon-search"></span>Cancela/Liquida</a></li>
+          ';}
+        ?>
+
+        <?php
+        if ($tiu==1)
+           { echo '
+           <li><a href="./mis_reservas.php"  title="Mis Reservas" onkeypress="return event.keyCode != 13"><span class="glyphicon glyphicon-search"></span>Mis Reservas</a></li>
+	      ';}
+        ?>
+
+             
+             
+             
+                <li><a href="./rooms.php">Habitaciones</a></li>
+                <li><a href="./Gatrooo.php">Gastronomia</a></li>
+                <li><a href="./EventESPP.php">Eventos Especiales</a></li>
+                <li><a href="./abouut.php">Sobre nosotros</a></li>
+                <li>
+                    <details>
+                      <summary>
+                        Lenguaje</i>
+                      </summary>
+                      <ul class="p-2 bg-base-100">
+                        <li><a href="#">Español (ES)</a></li>
+                        <li><a href="./home1 - EN.php">Ingles (EN)</a></li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li><a href="./logout.php">Cerrar Sesion</a></li>
+              </ul>
+            </div>
+          </div>
+    </nav> >  
         
         <!-- About Start -->
         <div class="container-xxl py-5">
@@ -108,6 +180,7 @@
 
 
         <!-- Category Start -->
+        <div class="container-xxl bg-white p-0">
         <div class="container-xxl py-5">
             <div class="container">
                 <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Explore By Category</h1>
@@ -486,20 +559,22 @@
 
 
         <section class="container">
-            <div class="site-content">
-            <div class="posts">
-            <div class="pagination flex-row">
-                <a href="./Gatrooo - EN.html.html"><i class="fas fa-chevron-left"></i></a>
-                <a href="./Index - EN.html.html" class="pages">1</a>
-                <a href="./Nueva pagina de comodidades - EN.html.html" class="pages">2</a>
-                <a href="./Gatrooo - EN.html.html" class="pages">3</a>
-                <a href=".#" class="pagina">4</a>
-                <a href="./abouut - EN.html.html" class="pages">5</a>
-                <a href="./abouut - EN.html.html"><i class="fas fa-chevron-right"></i></a>
-            </div>
-            </div>
-            </div>
-        </section>
+        <div class="site-content">
+        <div class="posts">
+        <div class="pagination flex-row">
+            <a href="./Gatrooo.php"><i class="fas fa-chevron-left"></i></a>
+            <a href="./home1.php" class="pages">1</a>
+            <a href="./Nueva pagina de comodidades.php" class="pages">2</a>
+            <a href="./Gatrooo.php" class="pages">3</a>
+            <a href="#" class="pagina">4</a>
+            <a href="./rooms.php" class="pages">5</a>
+            <a href="./abouut - copia.php" class="pages">6</a>
+            <a href="./rooms.php"><i class="fas fa-chevron-right"></i></a>
+        </div>
+        </div>
+        </div>
+    </section>
+
         <!-- Testimonial Start -->
         <!-- Testimonial End -->
         

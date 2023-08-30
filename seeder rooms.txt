@@ -1,0 +1,56 @@
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '01', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '02', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '03', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '04', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '05', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '06', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '07', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '08', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '09', '', '', '', '', '140', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'R2-SENCILLA SAN FRANCISCO', '10', '', '', '', '', '140', '0');
+
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '01', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '02', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '03', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '04', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '05', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '06', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '07', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '08', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '09', '', '', '', '', '200', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S1-SUIT EXCLUSIVA DELUXE', '10', '', '', '', '', '200', '0');
+
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '01', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '02', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '03', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '04', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '05', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '06', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '07', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '08', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '09', '', '', '', '', '240', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'S2-SUIT EXCLUSIVA ULTIMATE', '10', '', '', '', '', '240', '0');
+
+
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '01', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '02', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '03', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '04', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '05', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '06', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '07', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '08', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '09', '', '', '', '', '440', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H1-HABITACION PRESIDENCIAL LUIS XV', '10', '', '', '', '', '440', '0');
+
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '01', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '02', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '03', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '04', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '05', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '06', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '07', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '08', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '09', '', '', '', '', '600', '0');
+INSERT INTO `hoteles`.`rooms` (`id`, `cuartoID`, `cuarto01`, `fechain`, `fechaout`, `documento`, `adulto`, `valor`, `valor2`) VALUES (NULL, 'H2-HABITACION PRESIDENCIAL REINA ISABEL', '10', '', '', '', '', '600', '0');
+

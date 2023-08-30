@@ -70,14 +70,14 @@ $_SESSION['estado'] ="Unavailable";
 
 </head>
 <body>
-    <nav>  
+<nav>  
         <div class="navbar  bg-white-500 md:bg-withe-500 lg:bg-white-500">
             <div class="flex-1">
               <a href="./home1.php" class="btn btn-ghost normal-case text-xl text-[#3f4954] sm:text-2xl   m ">Valdocco Resorts</a>
             </div>
             <div class="flex-none">
               <ul class="menu menu-horizontal px-1">
-                <li><a href="./Nueva pagina de comodidades.html">Comodidades</a></li>
+                <li><a href="./Nueva pagina de comodidades.php">Comodidades</a></li>
              
                         
 
@@ -118,10 +118,10 @@ $_SESSION['estado'] ="Unavailable";
              
              
              
-                <li><a href="./rooms.html">Habitaciones</a></li>
+                <li><a href="./rooms - EN.php">Habitaciones</a></li>
                 <li><a href="./Gatrooo - EN.php">Gastronomia</a></li>
                 <li><a href="./EventESPP.php">Eventos Especiales</a></li>
-                <li><a href="./abouut.html">Sobre nosotros</a></li>
+                <li><a href="./abouut - EN.php">Sobre nosotros</a></li>
                 <li>
                     <details>
                       <summary>
@@ -138,7 +138,6 @@ $_SESSION['estado'] ="Unavailable";
             </div>
           </div>
     </nav> 
-
 
 <style>
 :root{
